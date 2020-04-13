@@ -36,6 +36,7 @@ quarter = gild.resample("4M").mean()
 quarter.pct_change()
 
 # Chart zeichnen
+plt.style.use('gadfly')
 gild['Close'].plot(grid=True)
 cum_daily_return.plot(figsize=(12,8))
 plt.show()
