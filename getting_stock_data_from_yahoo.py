@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-gild = pdr.get_data_yahoo('AAPL',
+gild = pdr.get_data_yahoo('GILD',
                           start=datetime.datetime(2006, 10, 1),
                           end=datetime.datetime(2020, 11, 4))
 '''
